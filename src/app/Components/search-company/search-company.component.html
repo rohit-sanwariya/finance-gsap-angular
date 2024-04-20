@@ -1,0 +1,9 @@
+<mat-form-field>
+  <mat-label>Search....</mat-label>
+  <input type="text" matInput [value]="value" (input)="afterChange($event.target)" />
+</mat-form-field>
+
+<span *ngIf="error()">
+  {{ error() }}
+  sfsfsddfds
+</span>
